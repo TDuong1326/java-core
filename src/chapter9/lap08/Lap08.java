@@ -24,7 +24,7 @@ public class Lap08 {
 		} catch (WeakPasswordException e) {
 			System.out.println(e.getClass().getSimpleName() + ": " + e.getMessage());
 		} catch (NegativeBalanceException e) {
-			System.out.println(e.getClass().getSimpleName() + ": " + e.getMessage());
+			System.out.println(e.getClass().getSimpleName() + ": " +e.getMessage());
 		} finally {
 			System.out.println("Giao dich ket thuc");
 		}
